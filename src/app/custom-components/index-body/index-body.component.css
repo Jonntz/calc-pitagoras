@@ -1,0 +1,26 @@
+.container .card{
+    margin-top: 20px;
+}
+
+.card .carousel .carousel-inner .carousel-item{
+    opacity: 0.1;
+}
+
+.card .card-img-overlay{
+    text-shadow: 1px 1px 7px black;
+}
+
+.card .card-img-overlay p {
+    text-shadow: 1px 1px 3px black;
+    font-size: 22px;
+}
+
+.card .card-img-overlay #apresentacao {
+    text-shadow: 1px 1px 2px black;
+    font-size: 18px;
+    text-align: justify;
+}
+.card {
+    margin: 0 auto;
+    max-width: 810px;
+}
