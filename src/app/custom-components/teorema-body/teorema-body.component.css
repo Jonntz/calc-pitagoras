@@ -1,0 +1,10 @@
+.card{
+    margin-top: 40px;
+}
+
+.card .nav .nav-item > a{
+    text-transform: capitalize; 
+    color: #4169E1; 
+    -webkit-transition: background-color .2s, color .2s; 
+    transition: background-color .2s, color .2s; 
+}

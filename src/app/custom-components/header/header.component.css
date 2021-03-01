@@ -26,5 +26,5 @@ header nav{
 }
 
 .navbar ul li :hover{
-    text-shadow: 4px 4px 12px white;
+    text-decoration: underline;
 }
