@@ -1,0 +1,25 @@
+<app-header></app-header>
+<main>
+    <section class="container">
+        <div class="card text-center">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs" role="navigation">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="true" routerLink="cateto-oposto">Cateto Oposto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="cateto-adjascente">Cateto Adjascente</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"routerLink="hipotenusa">Hipotenusa</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body">
+                <router-outlet></router-outlet>
+                
+            </div>
+          </div>
+    </section>
+</main>
+<app-footer></app-footer>
