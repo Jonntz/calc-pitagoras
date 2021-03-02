@@ -6,10 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./teorema-form-cateto-adjascente.component.css']
 })
 export class TeoremaFormCatetoAdjascenteComponent implements OnInit {
+  
+  adjacente!: number;
+  hipotenusa!: number;
+  oposto!: number;
+  resultadoAdjacente!: number;
 
   constructor() { }
 
   ngOnInit(): void {
   }
+  
+  teorema(): number{
+    let oposto = this.oposto;
+    let hipotenusa = this.hipotenusa;
+    
+    this.adjacente = (hipotenusa ** 2) - (oposto ** 2);
+    this.resultadoAdjacente = Math.sqrt(this.adjacente);
 
+    event?.preventDefault();
+    return this.resultadoAdjacente;
+  }
 }
