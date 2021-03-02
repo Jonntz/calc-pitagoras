@@ -6,10 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./teorema-form.component.css']
 })
 export class TeoremaFormComponent implements OnInit {
+  
+  adjacente!: number;
+  hipotenusa!: number;
+  oposto!: number;
+  resultadoOposto!: number;
 
   constructor() { }
 
   ngOnInit(): void {
   }
+  
+  teorema(): number{
+    let adjacente = this.adjacente;
+    let hipotenusa = this.hipotenusa;
+    
+    this.oposto = (hipotenusa ** 2) - (adjacente ** 2);
+    this.resultadoOposto = Math.sqrt(this.oposto);
 
+    event?.preventDefault();
+    return this.resultadoOposto;
+  }
 }

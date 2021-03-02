@@ -6,10 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hipotenusa.component.css']
 })
 export class HipotenusaComponent implements OnInit {
+  
+  adjacente!: number;
+  hipotenusa!: number;
+  oposto!: number;
+  resultadoHipotenusa!: number;
 
   constructor() { }
 
   ngOnInit(): void {
   }
+  
+  teorema(): number{
+    let oposto = this.oposto;
+    let adjacente = this.adjacente;
+    
+    this.hipotenusa = (oposto ** 2) + (adjacente ** 2);
+    this.resultadoHipotenusa = Math.sqrt(this.hipotenusa);
 
+    event?.preventDefault();
+    return this.resultadoHipotenusa;
+  }
 }

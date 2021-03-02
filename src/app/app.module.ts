@@ -11,6 +11,7 @@ import { SobreBodyComponent } from './custom-components/sobre-body/sobre-body.co
 import { TeoremaFormComponent } from './custom-components/teorema-form/teorema-form.component';
 import { TeoremaFormCatetoAdjascenteComponent } from './custom-components/teorema-form-cateto-adjascente/teorema-form-cateto-adjascente.component';
 import { HipotenusaComponent } from './custom-components/hipotenusa/hipotenusa.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HipotenusaComponent } from './custom-components/hipotenusa/hipotenusa.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
