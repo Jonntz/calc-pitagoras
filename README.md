@@ -32,6 +32,6 @@ Instale as dependências do projeto:
 Agora basta iniciar o projeto:
   - &nbsp;$ ng serve
 
-<a href="https://github.com/Jonntz">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonntz&theme=buefy&layout=compact" />
-</a
+---
+Bom proveito!!
+Hospedagem da aplicação: https://calc-pitagoras.vercel.app/
