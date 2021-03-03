@@ -21,7 +21,17 @@ Primeiro, certifique-se de que todas as dependências estão instaladas:
 ### :paperclip: Download e Instalação
 
 Instale o Angular CLI:
-- &nbsp;$ npm install -g @angular/cli
+- &nbsp;$ npm install -g @angular/
+
+**Caso esteja no Windows, configure as variáveis de ambiente**
+- &nbsp; Pesquise "variáveis de ambiente no menu Iniciar"
+- &nbsp; Configure as variáveis conforme mostra as Imagens:
+
+![WhatsApp Image 2021-03-03 at 16 02 00](https://user-images.githubusercontent.com/65257445/109859222-799a4480-7c3b-11eb-8b9b-61b9bfd916c5.jpeg)
+
+- &nbsp; Adicione as seguintes variáveis:
+![WhatsApp Image 2021-03-03 at 16 01 38](https://user-images.githubusercontent.com/65257445/109859275-861e9d00-7c3b-11eb-86ea-d3a1d85d0b50.jpeg)
+
 
 Baixe o repositório com o git: 
  - &nbsp;$ git clone https://github.com/Jonntz/calc-pitagoras.git
