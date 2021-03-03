@@ -18,6 +18,6 @@ Primeiro, certifique-se de que todas as dependências estão instaladas:
  - &nbsp;NodeJS ([Veja como instalar](https://nodejs.org/pt-br/download/)).
  - &nbsp;Git ([Instalação no Linux](https://balta.io/blog/git-github-primeiros-passos#instala%C3%A7%C3%A3o-do-git) -- [Instalação no Windows](https://dicasdeprogramacao.com.br/como-instalar-o-git-no-windows/)).
  
-### Utilizando o Projeto
+### Download e Instalação
 
 
