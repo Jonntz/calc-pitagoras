@@ -21,13 +21,13 @@ Primeiro, certifique-se de que todas as dependências estão instaladas:
 ### :paperclip: Download e Instalação
 
 Baixe o repositório com o git: 
- - &nbsp;git clone https://github.com/Jonntz/calc-pitagoras.git
+ - &nbsp;$ git clone https://github.com/Jonntz/calc-pitagoras.git
 
 Entre na pasta do projeto:
-  - &nbsp;cd calc-pitagoras
+  - &nbsp;$ cd calc-pitagoras
 
 Instale as dependências do projeto:
-  -$ &nbsp;npm install
+  - &nbsp;$ npm install
 
 Agora basta iniciar o projeto:
-  -$ &nbsp;ng serve
+  - &nbsp;$ ng serve
