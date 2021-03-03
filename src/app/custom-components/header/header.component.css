@@ -28,3 +28,17 @@ header nav{
 .navbar ul li :hover{
     text-decoration: underline;
 }
+
+.navbar button{
+    color: white;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (min-width: 990px) {
+    .navbar button{
+        display:none;
+    }
+}
