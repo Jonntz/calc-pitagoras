@@ -20,6 +20,9 @@ Primeiro, certifique-se de que todas as dependências estão instaladas:
  
 ### :paperclip: Download e Instalação
 
+Instale o Angular CLI:
+- &nbsp;$ npm install -g @angular/cli
+
 Baixe o repositório com o git: 
  - &nbsp;$ git clone https://github.com/Jonntz/calc-pitagoras.git
 
