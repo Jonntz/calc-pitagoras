@@ -1,4 +1,4 @@
-# Pitágoras
+# :man: Pitágoras
 Calculadora da relação dos lados do triângulo (Teorema de Pitágoras).
 
 ## 🛠 Tecnologias utilizadas neste Projeto.
