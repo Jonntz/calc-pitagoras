@@ -10,6 +10,10 @@
     text-shadow: 1px 1px 7px black;
 }
 
+.card .card-img-overlay h2 {
+    margin-bottom: 30px;
+}
+
 .card .card-img-overlay p {
     text-shadow: 1px 1px 3px black;
     font-size: 22px;
@@ -23,4 +27,108 @@
 .card {
     margin: 0 auto;
     max-width: 810px;
+}
+
+@media screen and (max-width: 767px) {
+    .card .card-img-overlay h2 {
+        font-size: 18px;
+    }
+
+    .card .card-img-overlay p {
+        font-size: 16px;
+    }
+
+    .card .card-img-overlay #apresentacao {
+        font-size: 12px;
+
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .card .card-img-overlay h2 {
+        font-size: 16px;
+    }
+
+    .card .card-img-overlay p {
+        font-size: 12px;
+    }
+
+    .card .card-img-overlay #apresentacao {
+        font-size: 12px;
+
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .card .card-img-overlay h2 {
+        font-size: 14px;
+    }
+
+    .card .card-img-overlay p {
+        font-size: 12px;
+    }
+
+    .card .card-img-overlay #apresentacao {
+        font-size: 10px;
+
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .card .card-img-overlay h2 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .card .card-img-overlay p {
+        font-size: 12px;
+    }
+
+    .card .card-img-overlay #apresentacao {
+        font-size: 10px;
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card{
+        max-width: 830px;
+        margin: 0 auto;
+    }
+
+    .card .card-img-overlay h2 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .card .card-img-overlay p {
+        font-size: 10px;
+    }
+
+    .card .card-img-overlay #apresentacao {
+        font-size: 10px;
+
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .card{
+        max-width: 830px;
+        margin: 0 auto;
+    }
+
+    .card .card-img-overlay h2 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .card .card-img-overlay p {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .card .card-img-overlay #apresentacao {
+        font-size: 10px;
+
+    }
 }

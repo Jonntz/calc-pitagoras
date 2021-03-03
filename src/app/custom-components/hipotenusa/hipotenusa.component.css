@@ -2,3 +2,15 @@
     margin: 50px;
     font-size: 30px;
 }
+
+@media screen and (max-width: 990px){
+    .resultado p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 495px){
+    .resultado p {
+        font-size: 14px;
+    }
+}
