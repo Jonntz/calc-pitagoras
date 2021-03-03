@@ -11,14 +11,14 @@ Calculadora da relação dos lados do triângulo (Teorema de Pitágoras).
 
 ---
 
-## Utilizando o Projeto
+## :computer: Utilizando o Projeto
 
 Primeiro, certifique-se de que todas as dependências estão instaladas:
 
  - &nbsp;NodeJS ([Veja como instalar](https://nodejs.org/pt-br/download/)).
  - &nbsp;Git ([Instalação no Linux](https://balta.io/blog/git-github-primeiros-passos#instala%C3%A7%C3%A3o-do-git) -- [Instalação no Windows](https://dicasdeprogramacao.com.br/como-instalar-o-git-no-windows/)).
  
-### Download e Instalação
+### :computer: Download e Instalação
 
 Baixe o repositório com o git: 
  - &nbsp;git clone https://github.com/Jonntz/calc-pitagoras.git
