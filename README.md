@@ -25,8 +25,8 @@ Instale o Angular CLI:
 
 **Caso esteja no Windows, configure as variáveis de ambiente**
 - &nbsp; Pesquise "variáveis de ambiente no menu Iniciar"
-- &nbsp; Configure as variáveis conforme mostra as Imagens:
-<br>
+- &nbsp; Configure as variáveis conforme mostra as Imagens:<br>
+
 ![WhatsApp Image 2021-03-03 at 16 02 00](https://user-images.githubusercontent.com/65257445/109859222-799a4480-7c3b-11eb-8b9b-61b9bfd916c5.jpeg)
 
 Adicione as seguintes variáveis: <br>
