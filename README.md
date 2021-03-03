@@ -12,9 +12,11 @@ Calculadora da relação dos lados do triângulo (Teorema de Pitágoras).
 
 ---
 
-### Utilizando o Projeto
+## Utilizando o Projeto
 
 Primeiro, certifique-se de que todas as dependências estão instaladas:
 
- -NodeJS [Veja como instalar](https://nodejs.org/pt-br/download/);
- -Git [Instalação no Linux](https://balta.io/blog/git-github-primeiros-passos#instala%C3%A7%C3%A3o-do-git) [Instalação no Windows](https://dicasdeprogramacao.com.br/como-instalar-o-git-no-windows/)
+ -NodeJS [Veja como instalar](https://nodejs.org/pt-br/download/).
+ -Git [Instalação no Linux](https://balta.io/blog/git-github-primeiros-passos#instala%C3%A7%C3%A3o-do-git) [Instalação no Windows](https://dicasdeprogramacao.com.br/como-instalar-o-git-no-windows/).
+ 
+### Utilizando o Projeto
