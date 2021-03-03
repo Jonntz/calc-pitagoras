@@ -27,7 +27,7 @@ Entre na pasta do projeto:
   - &nbsp;cd calc-pitagoras
 
 Instale as dependências do projeto:
-  - &nbsp;npm install
+  -$ &nbsp;npm install
 
 Agora basta iniciar o projeto:
-  - &nbsp;ng serve
+  -$ &nbsp;ng serve
