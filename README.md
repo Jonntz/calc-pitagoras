@@ -33,5 +33,5 @@ Agora basta iniciar o projeto:
   - &nbsp;$ ng serve
 
 ---
-Bom proveito!!
+Bom proveito!! <br>
 Hospedagem da aplicação: https://calc-pitagoras.vercel.app/
