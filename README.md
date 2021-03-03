@@ -33,5 +33,5 @@ Agora basta iniciar o projeto:
   - &nbsp;$ ng serve
 
 <a href="https://github.com/Jonntz">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jonntz&theme=buefy&layout=compact" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonntz&theme=buefy&layout=compact" />
 </a
