@@ -20,4 +20,5 @@ Primeiro, certifique-se de que todas as dependências estão instaladas:
  
 ### Download e Instalação
 
-
+Baixe o repositório com o git: 
+ - &nbsp; git clone https://github.com/Jonntz/calc-pitagoras.git
