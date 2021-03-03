@@ -29,7 +29,7 @@ Instale o Angular CLI:
 
 ![WhatsApp Image 2021-03-03 at 16 02 00](https://user-images.githubusercontent.com/65257445/109859222-799a4480-7c3b-11eb-8b9b-61b9bfd916c5.jpeg)
 
-- &nbsp; Adicione as seguintes variáveis:
+Adicione as seguintes variáveis: <br>
 ![WhatsApp Image 2021-03-03 at 16 01 38](https://user-images.githubusercontent.com/65257445/109859275-861e9d00-7c3b-11eb-86ea-d3a1d85d0b50.jpeg)
 
 
