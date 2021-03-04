@@ -21,8 +21,12 @@ export class HipotenusaComponent implements OnInit {
     let oposto = this.oposto;
     let adjacente = this.adjacente;
     
-    this.hipotenusa = (oposto ** 2) + (adjacente ** 2);
-    this.resultadoHipotenusa = Math.sqrt(this.hipotenusa);
+    if (oposto == null && adjacente == null) {
+      alert("Preencha todos os campos");
+    }else{
+      this.hipotenusa = (oposto ** 2) + (adjacente ** 2);
+      this.resultadoHipotenusa = Math.sqrt(this.hipotenusa);
+    }
 
     event?.preventDefault();
     return this.resultadoHipotenusa;
