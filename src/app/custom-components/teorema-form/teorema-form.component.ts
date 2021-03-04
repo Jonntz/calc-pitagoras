@@ -21,9 +21,13 @@ export class TeoremaFormComponent implements OnInit {
     let adjacente = this.adjacente;
     let hipotenusa = this.hipotenusa;
     
-    this.oposto = (hipotenusa ** 2) - (adjacente ** 2);
-    this.resultadoOposto = Math.sqrt(this.oposto);
-
+    if (adjacente == null && hipotenusa == null) {
+      alert("Preencha todos os campos");
+    }else{
+      this.oposto = (hipotenusa ** 2) - (adjacente ** 2);
+      this.resultadoOposto = Math.sqrt(this.oposto);
+    }
+    
     event?.preventDefault();
     return this.resultadoOposto;
   }

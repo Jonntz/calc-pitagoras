@@ -6,12 +6,12 @@
 </div>
 <div class="mb-3 text-left">
     <label for="adjascente" class="form-label"><b>Valor do Cateto Adjascente</b></label>
-    <input type="text" class="form-control" id="adjascente" aria-describedby="textHelp" [(ngModel)]="adjacente" required>
+    <input type="text" class="form-control" id="adjascente" aria-describedby="textHelp" [(ngModel)]="adjacente" >
     <div class="form-text">Digite aqui o valor do cateto Adjascente do triângulo retângulo.</div>
 </div>
 <div class="mb-3 text-left">
     <label for="hipotenusa" class="form-label"><b>Valor da Hipotenusa</b></label>
-    <input type="text" class="form-control" id="hipotenusa" aria-describedby="textHelp" [(ngModel)]="hipotenusa" required>
+    <input type="text" class="form-control" id="hipotenusa" aria-describedby="textHelp" [(ngModel)]="hipotenusa" >
     <div class="form-text">Digite aqui o valor da hipotenusa do triângulo retângulo.</div>
 </div>
 <button type="button" class="btn btn-primary" (click)="teorema()">Calcular</button>

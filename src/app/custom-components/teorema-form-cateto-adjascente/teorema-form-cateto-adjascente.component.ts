@@ -21,8 +21,12 @@ export class TeoremaFormCatetoAdjascenteComponent implements OnInit {
     let oposto = this.oposto;
     let hipotenusa = this.hipotenusa;
     
-    this.adjacente = (hipotenusa ** 2) - (oposto ** 2);
-    this.resultadoAdjacente = Math.sqrt(this.adjacente);
+    if (oposto == null && hipotenusa == null) {
+      alert("Preencha todos os campos");
+    }else{
+      this.adjacente = (hipotenusa ** 2) - (oposto ** 2);
+      this.resultadoAdjacente = Math.sqrt(this.adjacente);
+    }
 
     event?.preventDefault();
     return this.resultadoAdjacente;
