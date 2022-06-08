@@ -25,7 +25,13 @@ export class TeoremaFormComponent implements OnInit {
       alert("Preencha todos os campos");
     }else{
       this.oposto = (hipotenusa ** 2) - (adjacente ** 2);
-      this.resultadoOposto = Math.sqrt(this.oposto);
+      // console.log(this.oposto)
+      
+      if(this.oposto < 0){
+        alert("Este triângulo não é pitagórico!");
+      } else {
+        this.resultadoOposto = Math.sqrt(this.oposto);
+      }
     }
     
     event?.preventDefault();

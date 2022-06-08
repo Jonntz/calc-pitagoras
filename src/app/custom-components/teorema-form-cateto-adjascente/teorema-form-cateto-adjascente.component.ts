@@ -25,7 +25,11 @@ export class TeoremaFormCatetoAdjascenteComponent implements OnInit {
       alert("Preencha todos os campos");
     }else{
       this.adjacente = (hipotenusa ** 2) - (oposto ** 2);
-      this.resultadoAdjacente = Math.sqrt(this.adjacente);
+      if(this.adjacente < 0){
+        alert("Este triângulo não é pitagórico!");
+      } else {
+        this.resultadoAdjacente = Math.sqrt(this.adjacente);
+      }
     }
 
     event?.preventDefault();
